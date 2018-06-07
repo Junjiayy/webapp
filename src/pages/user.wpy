@@ -1,14 +1,72 @@
+<style lang="less">
+  .avatar-wrap {
+    position: relative;
+    margin-right: 10px;
+  }
+
+  .avatar {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+  }
+
+  .logout {
+    margin-top: 30px;
+  }
+
+  .introduction {
+    font-size: 13px;
+    color: #888888;
+  }
+</style>
 <template>
   <view class="page">
-    <view wx:if="{{ loggedIn }}">
-      已登录 name:{{ userInfo.name }}
-      <button type="warn" @tap="logout">退出登录</button>
-    </view>
-    <view wx:else>
-      <navigator class="weui-cell weui-cell_access" url="/pages/auth/login">
-        <view class="weui-cell__bd">未登录</view>
-        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-      </navigator>
+    <view class="page__bd">
+      <view class="weui-cells weui-cells_after-title">
+        <!-- 已登录 -->
+        <navigator class="weui-cell" wx:if="{{ user }}" url>
+          <view class="weui-cell__hd avatar-wrap">
+            <image class="avatar" src="{{ user.avatar }}"/>
+          </view>
+          <view class="weui-cell__bd">
+            <view>{{ user.name }}</view>
+            <view class="page__desc">{{ user.introduction || '' }}</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+        <!-- 未登录 -->
+        <navigator class="weui-cell" wx:else url="/pages/auth/login">
+          <view class="weui-cell__hd avatar-wrap">
+            <image src="/images/user.png" class="avatar"/>
+          </view>
+          <view class="weui-cell__bd">
+            <view>未登录</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+        <navigator class="weui-cell weui-cell_access" url="">
+          <view class="weui-cell__bd" url="">
+            <view class="weui-cell__bd">我的消息</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+        <navigator class="weui-cell weui-cell_access" url="">
+          <view class="weui-cell__bd" url="">
+            <view class="weui-cell__bd">我的话题</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+        <navigator class="weui-cell weui-cell_access" url="">
+          <view class="weui-cell__bd" url="">
+            <view class="weui-cell__bd">我的回复</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+      </view>
+      <view class="page__bd page__bd_spacing logout">
+        <button class="weui-btn" type="warn" wx:if="{{ user }}" @tap="logout">退出登录</button>
+      </view>
     </view>
   </view>
 </template>
@@ -22,29 +80,24 @@
       navigationBarTitleText: '我的'
     }
     data = {
-      loggedIn: false,
-      userInfo: null
+      // 用户信息
+      user: null
     }
 
     async onShow() {
-      let accessToken = wepy.getStorageSync('access_token')
-
-      if (accessToken) {
-        let userResponse = await api.authRequest('user')
-        this.userInfo = userResponse.data
-        this.loggedIn = true
-        this.$apply()
-      }
+      // 每次打开页面，获取当前用户信息
+      this.user = await this.$parent.getCurrentUser()
+      this.$apply()
     }
 
     methods = {
+      // 退出登录方法
       async logout(e) {
         try {
           let logoutResponse = await api.logout()
 
           if (logoutResponse.statusCode === 204) {
-            this.loggedIn = false
-            this.userInfo = null
+            this.user = nullˆ
             this.$apply()
           }
         } catch (err) {
@@ -55,6 +108,6 @@
           })
         }
       }
-    }
+    };
   }
 </script>

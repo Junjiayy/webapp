@@ -41,6 +41,7 @@
 <script>
   import wepy from 'wepy'
   import 'wepy-async-function'
+  import api from '@/utils/api'
 
   import {setStore} from 'wepy-redux'
   import configStore from './store'
@@ -53,7 +54,8 @@
       pages: [
         'pages/index',
         'pages/user',
-        'pages/auth/login'
+        'pages/auth/login',
+        'pages/auth/register'
       ],
       window: {
         backgroundTextStyle: 'light',
@@ -116,6 +118,36 @@
           cb && cb(res.userInfo)
         }
       })
+    }
+
+    /* 检查用户是否登录 */
+    checkLogin() {
+      return (wepy.getStorageSync('access_token') !== '')
+    }
+
+    /* 获取当前登录用户的信息 */
+    async getCurrentUser() {
+      if (!this.checkLogin()) return null
+
+      let user = wepy.getStorageSync('user')
+
+      try {
+        if (!user) {
+          let userResponse = await api.authRequest('user')
+          if (userResponse.statusCode === 200) {
+            user = userResponse.data
+            wepy.setStorageSync('user', user)
+          }
+        }
+      } catch (err) {
+        console.log(err)
+        wepy.showModal({
+          title: '提示',
+          content: '服务器错误，请联系管理员'
+        })
+      }
+
+      return user
     }
   }
 </script>
