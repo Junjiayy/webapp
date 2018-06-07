@@ -1,13 +1,15 @@
 {
-  "description": "laravel bbs",
-  "setting": {
-    "urlCheck": true,
-    "es6": false,
-    "postcss": false,
-    "minified": false
-  },
-  "compileType": "miniprogram",
-  "appid": "wx47decb1af01ca832",
-  "projectname": "larabbs",
-  "miniprogramRoot": "./dist"
+	"description": "laravel bbs",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"appid": "wx47decb1af01ca832",
+	"projectname": "larabbs",
+	"miniprogramRoot": "./dist",
+	"condition": {}
 }

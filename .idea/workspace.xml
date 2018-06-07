@@ -1,7 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd157856-c180-4877-91ad-60224689e4fa" name="Default" comment="" />
+    <list default="true" id="dd157856-c180-4877-91ad-60224689e4fa" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/index_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/user_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/auth/login.wpy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/user.wpy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/base/fn.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/base/mixin/setArrow.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/base/mixin/setOnepx.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/base/mixin/text.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/base/reset.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/base/variable/color.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/base/variable/global.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/base/variable/weui-button.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/base/variable/weui-cell.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/base/variable/weui-dialog.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/base/variable/weui-grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/base/variable/weui-msg.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/base/variable/weui-progress.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/weui.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-agree/weui-agree.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-animate/weui-animate.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-button/weui-button.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-access.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-cell.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-check.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-form.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-form-preview.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-form_common.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-select.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-vcode.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-switch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-uploader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-flex/weui-flex.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-footer/weui-footer.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-grid/weui-grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-loading/weui-loading.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-media-box/weui-media-box.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-page/weui-article.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-page/weui-msg.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-panel/weui-panel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-progress/weui-progress.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-searchbar/weui-searchbar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-tab/weui-navbar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-tab/weui-tab.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-tips/weui-badge.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/widget/weui-tips/weui-loadmore.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.wepycache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.wpy" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,7 +72,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="project.config.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="project.config.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.config.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
@@ -23,13 +81,81 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="user.wpy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/user.wpy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.wpy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/index.wpy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.wpy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app.wpy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+              <folding>
+                <element signature="e#196#219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.wpy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/auth/login.wpy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="649">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+              <folding>
+                <element signature="e#1542#1565#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/pages/index.wpy" />
+        <option value="$PROJECT_DIR$/src/pages/user.wpy" />
+        <option value="$PROJECT_DIR$/src/app.wpy" />
+        <option value="$PROJECT_DIR$/src/utils/api.js" />
+        <option value="$PROJECT_DIR$/src/pages/auth/login.wpy" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -39,6 +165,9 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -52,6 +181,47 @@
             <path>
               <item name="larabbs-weapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="larabbs-weapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs-weapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs-weapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs-weapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs-weapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs-weapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs-weapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs-weapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs-weapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs-weapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs-weapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs-weapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs-weapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs-weapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs-weapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -68,6 +238,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -91,25 +266,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528299691531</updated>
-      <workItem from="1528299693298" duration="253000" />
+      <workItem from="1528299693298" duration="7661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253000" />
+    <option name="totallyTimeSpent" value="7661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2326389" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -128,10 +303,86 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/images/index.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/index_selected.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/user_selected.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/user.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/wepy-async-function/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/utils">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding>
+            <element signature="e#196#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project.config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/user.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/utils/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/wepy/lib/wepy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/auth/login.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="e#1542#1565#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
