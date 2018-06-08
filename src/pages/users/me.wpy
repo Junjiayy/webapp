@@ -97,7 +97,8 @@
           let logoutResponse = await api.logout()
 
           if (logoutResponse.statusCode === 204) {
-            this.user = null            this.$apply()
+            this.user = null
+            this.$apply()
           }
         } catch (err) {
           console.log(err)
