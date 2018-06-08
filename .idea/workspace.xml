@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd157856-c180-4877-91ad-60224689e4fa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/topics/index.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/topics/index.wpy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,13 +38,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.wpy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.wpy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/topics/index.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
+            <state relative-caret-position="309">
+              <caret line="172" column="38" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="38" />
               <folding>
-                <element signature="e#1870#1893#0" expanded="true" />
+                <element signature="e#2678#2701#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,7 +65,7 @@
       <file leaf-file-name="app.wpy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
+            <state relative-caret-position="488">
               <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
               <folding>
                 <element signature="e#556#579#0" expanded="true" />
@@ -96,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.wpy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="register.wpy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/auth/register.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
+            <state relative-caret-position="-66">
               <caret line="302" column="37" selection-start-line="302" selection-start-column="37" selection-end-line="302" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#image#0;n#view#1;n#view#1;n#modal#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
@@ -267,12 +266,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528299691531</updated>
-      <workItem from="1528299693298" duration="23094000" />
+      <workItem from="1528299693298" duration="25500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23094000" />
+    <option name="totallyTimeSpent" value="25500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -358,7 +357,7 @@
         <state relative-caret-position="605">
           <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
           <folding>
-            <element signature="e#1870#1893#0" expanded="true" />
+            <element signature="e#2678#2701#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -400,16 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/users/me.wpy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="100" column="12" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
-          <folding>
-            <element signature="e#2308#2331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -420,9 +409,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/auth/register.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="302" column="37" selection-start-line="302" selection-start-column="37" selection-end-line="302" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#image#0;n#view#1;n#view#1;n#modal#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#2081#2104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
+        <state relative-caret-position="488">
           <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
           <folding>
             <element signature="e#556#579#0" expanded="true" />
@@ -430,23 +430,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/topics/index.wpy">
+    <entry file="file://$PROJECT_DIR$/src/pages/users/me.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
+        <state relative-caret-position="531">
+          <caret line="100" column="12" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
           <folding>
-            <element signature="e#1870#1893#0" expanded="true" />
+            <element signature="e#2308#2331#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/auth/register.wpy">
+    <entry file="file://$PROJECT_DIR$/src/pages/topics/index.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="302" column="37" selection-start-line="302" selection-start-column="37" selection-end-line="302" selection-end-column="37" />
+        <state relative-caret-position="309">
+          <caret line="172" column="38" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="38" />
           <folding>
-            <element signature="n#style#0;n#image#0;n#view#1;n#view#1;n#modal#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#2081#2104#0" expanded="true" />
+            <element signature="e#2678#2701#0" expanded="true" />
           </folding>
         </state>
       </provider>
