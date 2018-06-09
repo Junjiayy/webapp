@@ -186,6 +186,12 @@
       this.$invoke('topiclist', 'reload')
     }
 
+    onShow() {
+      this.$parent.checkRefreshPages(this.getCurrentPages().pop().route, () => {
+        this.$invoke('topiclist', 'reload')
+      })
+    }
+
     async onReachBottom() {
       this.$invoke('topiclist', 'loadMore')
     }

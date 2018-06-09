@@ -23,7 +23,7 @@
   <view class="page">
     <view class="page__bd">
       <view class="weui-cells weui-cells_after-title">
-        <navigator class="weui-cell">
+        <navigator open-type="redirect" class="weui-cell" url="/pages/users/show?id={{ topic.user.id }}">
           <view class="weui-cell__hd avatar-wrap">
             <image class="avatar" src="{{ topic.user.avatar }}"/>
           </view>
@@ -31,6 +31,7 @@
             <view>{{ topic.user.name }}</view>
             <view class="page__desc">{{ topic.user.introduction }}</view>
           </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
         </navigator>
       </view>
       <view class="topic-title">
@@ -43,6 +44,9 @@
       </view>
       <view class="weui-article">
         <rich-text nodes="{{ topic.body }}" bindtap="tap"></rich-text>
+
+        <button wx:if="{{ canDelete }}" @tap="deleteTopic" class="weui-btn mini-btn" type="default" size="mini">删除
+        </button>
       </view>
     </view>
   </view>
@@ -58,7 +62,15 @@
     }
 
     data = {
-      topic: null
+      topic: null,
+      user: null
+    }
+
+    computed = {
+      canDelete() {
+        if (!this.topic || !this.user) return false
+        return this.user.id === this.topic.user_id
+      }
     }
 
     async getTopic(id) {
@@ -84,8 +96,51 @@
       }
     }
 
-    onLoad(options) {
-      this.getTopic(options.id)
+    methods = {
+      async deleteTopic() {
+        let res = await wepy.showModal({
+          title: '确认删除',
+          content: '您确认删除该删除',
+          confirmText: '确认',
+          cancelText: '取消'
+        })
+
+        if (!res.confirm) return
+
+        let deleteResponse = await api.authRequest({
+          url: 'topics/' + this.topic.id,
+          method: 'DELETE'
+        })
+
+        if (deleteResponse.statusCode === 204) {
+          wepy.showToast({
+            title: '删除成功',
+            icon: 'success'
+          })
+        }
+
+        let pages = this.getCurrentPages()
+        if (pages.length > 1) {
+          let refreshPages = []
+          pages.forEach(function (page) {
+            if (page.route === 'pages/topics/index' || page.route === 'pages/topics/user_index') {
+              refreshPages.push(page.route)
+            }
+          })
+
+          this.$parent.globalData.refreshPages = this.$parent.globalData.refreshPages.concat(refreshPages)
+        }
+
+        setTimeout(function () {
+          wepy.navigateBack()
+        }, 2000)
+      }
+    }
+
+    async onLoad(options) {
+      await this.getTopic(options.id)
+      this.user = await this.$parent.getCurrentUser()
+      this.$apply()
     }
   }
 </script>

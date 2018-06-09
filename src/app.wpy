@@ -57,6 +57,7 @@
         'pages/topics/user_index',
         'pages/users/me',
         'pages/users/edit',
+        'pages/users/show',
         'pages/auth/login',
         'pages/auth/register'
       ],
@@ -84,7 +85,7 @@
     }
 
     globalData = {
-      userInfo: null
+      refreshPages: []
     }
 
     constructor() {
@@ -134,23 +135,33 @@
 
       let user = wepy.getStorageSync('user')
 
-      try {
-        if (!user) {
+      if (!user) {
+        try {
           let userResponse = await api.authRequest('user')
           if (userResponse.statusCode === 200) {
             user = userResponse.data
             wepy.setStorageSync('user', user)
           }
+        } catch (err) {
+          console.log(err)
+          wepy.showModal({
+            title: '提示',
+            content: '服务器错误，请联系管理员'
+          })
         }
-      } catch (err) {
-        console.log(err)
-        wepy.showModal({
-          title: '提示',
-          content: '服务器错误，请联系管理员'
-        })
       }
 
       return user
+    }
+
+    /* 检查页面是否需要刷星 */
+    checkRefreshPages(route, callback) {
+      let refreshIndex = this.globalData.refreshPages.indexOf(route)
+      if (refreshIndex === -1) return
+
+      this.globalData.refreshPages.splice(refreshIndex, 1)
+
+      callback && callback()
     }
   }
 </script>

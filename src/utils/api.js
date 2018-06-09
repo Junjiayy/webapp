@@ -51,7 +51,7 @@ const login = async (params = {}) => {
 /* 刷新Token封装 */
 const refreshToken = async (accessToken) => {
   let refreshResponse = await request({
-    url: host + '/' + 'authorizations/current',
+    url: 'authorizations/current',
     method: 'PUT',
     header: {
       'Authorization': 'Bearer ' + accessToken

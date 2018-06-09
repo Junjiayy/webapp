@@ -35,6 +35,12 @@
       wepy.stopPullDownRefresh()
     }
 
+    onShow() {
+      this.$parent.checkRefreshPages(this.getCurrentPages().pop().route, () => {
+        this.$invoke('topiclist', 'reload')
+      })
+    }
+
     onReachBottom() {
       this.$invoke('topiclist', 'loadMore')
     }
