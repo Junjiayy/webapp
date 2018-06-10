@@ -58,6 +58,7 @@
         'pages/users/me',
         'pages/users/edit',
         'pages/users/show',
+        'pages/replies/index',
         'pages/auth/login',
         'pages/auth/register'
       ],
