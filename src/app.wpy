@@ -59,6 +59,7 @@
         'pages/users/edit',
         'pages/users/show',
         'pages/replies/index',
+        'pages/replies/user_index',
         'pages/auth/login',
         'pages/auth/register'
       ],

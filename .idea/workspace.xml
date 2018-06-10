@@ -4,7 +4,9 @@
     <list default="true" id="dd157856-c180-4877-91ad-60224689e4fa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.wpy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/topics/show.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/topics/show.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/replies/index.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/replies/index.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/users/me.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/users/me.wpy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/users/show.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/users/show.wpy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,40 +23,52 @@
       <file leaf-file-name="me.wpy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/users/me.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-348">
-              <caret line="53" column="90" selection-start-line="53" selection-start-column="90" selection-end-line="53" selection-end-column="90" />
+            <state relative-caret-position="-541">
+              <caret line="59" column="122" lean-forward="true" selection-start-line="59" selection-start-column="122" selection-end-line="59" selection-end-column="122" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.wpy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/topics/index.wpy">
+      <file leaf-file-name="replyMixin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mixins/replyMixin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3196">
-              <caret line="168" column="22" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="22" />
+            <state relative-caret-position="1">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#2486#2509#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.wpy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="show.wpy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/topics/show.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="121" column="27" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
+            <state relative-caret-position="1565">
+              <caret line="107" column="11" lean-forward="true" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.wpy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user_index.wpy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/replies/user_index.wpy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+              <folding>
+                <element signature="e#1519#1542#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.wpy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/replies/index.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1127">
-              <caret line="106" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="307">
+              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
-                <element signature="e#1515#1538#0" expanded="true" />
+                <element signature="e#1575#1598#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,8 +86,8 @@
       <file leaf-file-name="show.wpy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/users/show.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="289">
+              <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -93,8 +107,8 @@
       <file leaf-file-name="app.wpy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+            <state relative-caret-position="436">
+              <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
               <folding>
                 <element signature="e#556#579#0" expanded="true" />
               </folding>
@@ -102,28 +116,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.wpy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/auth/register.wpy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5807">
-              <caret line="302" column="37" selection-start-line="302" selection-start-column="37" selection-end-line="302" selection-end-column="37" />
-              <folding>
-                <element signature="n#style#0;n#image#0;n#view#1;n#view#1;n#modal#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.wpy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/users/edit.wpy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4536">
-              <caret line="163" column="19" selection-start-line="163" selection-start-column="19" selection-end-line="163" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>'pages/replies/userIndex'</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -137,15 +135,17 @@
         <option value="$PROJECT_DIR$/src/pages/auth/register.wpy" />
         <option value="$PROJECT_DIR$/src/pages/users/edit.wpy" />
         <option value="$PROJECT_DIR$/src/utils/util.js" />
-        <option value="$PROJECT_DIR$/src/pages/users/me.wpy" />
-        <option value="$PROJECT_DIR$/src/pages/users/show.wpy" />
         <option value="$PROJECT_DIR$/src/pages/topics/index.wpy" />
         <option value="$PROJECT_DIR$/src/pages/topics/user_index.wpy" />
         <option value="$PROJECT_DIR$/src/utils/api.js" />
         <option value="$PROJECT_DIR$/src/components/topicList.wpy" />
-        <option value="$PROJECT_DIR$/src/app.wpy" />
-        <option value="$PROJECT_DIR$/src/pages/replies/index.wpy" />
         <option value="$PROJECT_DIR$/src/pages/topics/show.wpy" />
+        <option value="$PROJECT_DIR$/src/app.wpy" />
+        <option value="$PROJECT_DIR$/src/pages/users/show.wpy" />
+        <option value="$PROJECT_DIR$/src/pages/users/me.wpy" />
+        <option value="$PROJECT_DIR$/src/mixins/replyMixin.js" />
+        <option value="$PROJECT_DIR$/src/pages/replies/user_index.wpy" />
+        <option value="$PROJECT_DIR$/src/pages/replies/index.wpy" />
       </list>
     </option>
   </component>
@@ -199,6 +199,12 @@
               <item name="larabbs-weapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs-weapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs-weapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mixins" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="larabbs-weapp" type="b2602c69:ProjectViewProjectNode" />
@@ -288,12 +294,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528299691531</updated>
       <workItem from="1528299693298" duration="34108000" />
-      <workItem from="1528540962937" duration="10278000" />
+      <workItem from="1528540962937" duration="11181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44386000" />
+    <option name="totallyTimeSpent" value="45289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -323,6 +329,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/users/me.wpy">
@@ -482,13 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/users/me.wpy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-348">
-          <caret line="53" column="90" selection-start-line="53" selection-start-column="90" selection-end-line="53" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/topics/index.wpy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3196">
@@ -496,13 +500,6 @@
           <folding>
             <element signature="e#2486#2509#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/users/show.wpy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
@@ -530,30 +527,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/topics/show.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1565">
+          <caret line="107" column="11" lean-forward="true" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+        <state relative-caret-position="436">
+          <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
           <folding>
             <element signature="e#556#579#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/replies/index.wpy">
+    <entry file="file://$PROJECT_DIR$/src/mixins/test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/users/me.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="-541">
+          <caret line="59" column="122" lean-forward="true" selection-start-line="59" selection-start-column="122" selection-end-line="59" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/list.wpy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mixins/replyMixin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="e#1515#1538#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/topics/show.wpy">
+    <entry file="file://$PROJECT_DIR$/src/pages/users/show.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="121" column="27" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
+        <state relative-caret-position="289">
+          <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/replies/user_index.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <folding>
+            <element signature="e#1519#1542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/replies/index.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="e#1575#1598#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
