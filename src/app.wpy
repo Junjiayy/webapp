@@ -60,6 +60,7 @@
         'pages/users/show',
         'pages/replies/index',
         'pages/replies/user_index',
+        'pages/replies/create',
         'pages/auth/login',
         'pages/auth/register'
       ],
