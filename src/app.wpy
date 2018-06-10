@@ -88,7 +88,8 @@
     }
 
     globalData = {
-      refreshPages: []
+      refreshPages: [],
+      unreadCount: 0
     }
 
     constructor() {
@@ -98,7 +99,10 @@
     }
 
     onLaunch() {
-
+      this.updateUnreadCount()
+      setInterval(() => {
+        this.updateUnreadCount()
+      }, 60000)
     }
 
     sleep(s) {
@@ -165,6 +169,17 @@
       this.globalData.refreshPages.splice(refreshIndex, 1)
 
       callback && callback()
+    }
+
+    /* 更新未读消息的数量 */
+    async updateUnreadCount() {
+      if (!this.checkLogin()) return
+
+      let notificationResponse = await api.authRequest('user/notifications/stats', false)
+
+      if (notificationResponse.statusCode === 200) {
+        this.globalData.unreadCount = notificationResponse.data.unread_count
+      }
     }
   }
 </script>

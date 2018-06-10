@@ -35,6 +35,7 @@
     data = {
       topicId: 0
     }
+
     onLoad(options) {
       if (!this.$parent.checkLogin()) {
         wepy.navigateTo({
@@ -44,7 +45,7 @@
       this.topicId = options.topic_id
     }
 
-    async submit (e) {
+    async submit(e) {
       this.errors = null
 
       let formData = e.detail.value
@@ -65,9 +66,7 @@
           method: 'POST',
           data: formData
         })
-
         if (createResponse.statusCode === 201) {
-
           let pages = this.getCurrentPages()
 
           if (pages.length > 1) {
@@ -86,7 +85,7 @@
             icon: 'success'
           })
 
-          setTimeout(function() {
+          setTimeout(function () {
             wepy.navigateBack()
           }, 2000)
         }
