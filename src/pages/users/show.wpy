@@ -97,5 +97,19 @@
         })
       }
     }
+
+    onShareAppMessage (res) {
+      return {
+        title: this.user.name,
+        path: '/pages/users/show?id=' + this.user.id,
+        imageUrl: this.user.avatar,
+        success: function(res) {
+          console.log(res)
+        },
+        fail: function(res) {
+          console.log(res)
+        }
+      }
+    }
   }
 </script>

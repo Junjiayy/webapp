@@ -198,5 +198,18 @@
         this.getTopic(this.topic.id)
       })
     }
+
+    onShareAppMessage(res) {
+      return {
+        title: this.topic.title,
+        path: '/pages/topics/show?id=' + this.topic.id,
+        success: function(res) {
+          console.log(res)
+        },
+        fail: function(res) {
+          console.log(res)
+        }
+      }
+    }
   }
 </script>
