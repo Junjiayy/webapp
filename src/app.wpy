@@ -61,6 +61,7 @@
         'pages/replies/index',
         'pages/replies/user_index',
         'pages/replies/create',
+        'pages/notifications/index',
         'pages/auth/login',
         'pages/auth/register'
       ],
